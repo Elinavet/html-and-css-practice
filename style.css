@@ -28,10 +28,11 @@ p {
   width: 100%;
 }
 .image-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 10px;
+  
 }
 img {
   
