@@ -39,3 +39,14 @@ img {
   border: 1px solid blue;
   
 }
+h1, h2{
+  font-family:'Courier New', Courier, monospace
+}
+a{
+  font-size: 20px;
+}
+ol, ul{
+  color: bisque;
+  font-size: 20px;
+  padding: 10px;
+}
